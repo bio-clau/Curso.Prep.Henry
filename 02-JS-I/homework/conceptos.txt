@@ -1,0 +1,27 @@
+- Variable: Una variable es como una caja en donde se guarda algo. Cada caja tiene tiene: nombre y contenido (valor).
+
+
+- String: un string en JavaScript es un tipo de dato, donde el valor es 1 o mas caracteres, que se representan encerrados en comillas (ya sean simples o dobles). No se debe confundir el numero con el caracter, 1 es un numero y "1" es el caracter.
+
+- Funciones (argumento, return): Una funcion es un pedazo de código  que se escribe para poder ser utilizado una o mas veces a lo largo del programa. Existen diversas sintaxis para las funciones, la más clasica:
+function nombreFuncion (argumentos) {código}
+Una funcion se puede declarar usando la palabra clave function, además las funciones pueden tener un nombre, argumentos y salidas.
+Los argumentos de una funcion son los datos que ésta necesita para poder correr el codigo que tienen dentro.
+Todo el codigo interno de una funcion tiene su alcance dentro de la funcion, Esto es, no se pueden acceder desde fuera a los valosres generados dentro de la funcion. Para esto se utiliza return.
+Return gestiona cual sera la salida de la funcion (o valor que devuelve). Este valor se puede acceder desde fura de la funcion y tambien se puede guardar en una variable:
+const variable = function (argumentos) {
+    //codigo
+    return salida;
+}
+Otra forma mas nueva de declarar una funcion se llama funcion flecha (arrow function), que tiene la siguiente forma:
+const variable = (argumentos) => {codigo}
+
+- Declaración If: if es un condicional, este tiene la siguiente forma:
+if (condicion) {
+    codigo
+}
+De esta forma, si la condicion es verdadera, se corre el codigo que se encuentra entre llaves. de lo contrario el programa sigue sin ejecutar ese codigo. Las condiciones son expresiones que nos devuelven valores booleanos(ver siguiente definicion), es decir verdadero o falso.
+
+- Valores booleanos: Los valores booleanos (o Boolean) son un tipo de dato que puede tener 2 valores, verdadero (true) o falso (false). Normalmente estos valores se consiguen de la salida de comparaciones, ej:
+4>5 -> false
+66<999 -> true
