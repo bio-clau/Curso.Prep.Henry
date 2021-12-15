@@ -1,0 +1,15 @@
+prototype= Prototype es una especie de plantilla que se utiliza para darle cierta estructura y metodos a los objetos que se crean. Por ejemplo, para recopilar datos sobre personas, yo defino un prototipo en donde tendre la estructura de los datos que se necesitas y todos los petodos que tendran en comun estos objetos. siguiendo el mismo ejemplo, en el prototipo Persona, tendremos: nombre, apellido, edad y ciudad. Además tendremos los metodos: getNombre. Entonces definimos el prototipo, metodo y un objeto:
+function Persona(nombre, apellido, edad, ciudad) {
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.edad = edad;
+    this.ciudad = ciudad
+}
+Persona.prototype.getNombre = function() {
+    return `${this.nombre} ${this.apellido}`
+}
+ var clau = new Persona('Claudia', 'Neme', '34', 'San Juan')
+ clau.getNombre; // Claudia Neme
+
+
+constructor

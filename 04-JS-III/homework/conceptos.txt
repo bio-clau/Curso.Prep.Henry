@@ -1,0 +1,8 @@
+ARRAY
+Un array ( o arreglo) es un tipo de dato en el que se guarda un conjunto ordenado de elementos. La sintaxis del array es la siguiente:
+array = [elemento1, elemento2, elemento3]
+Los elementos pueden ser variables de cualquier tipo, valores como null o undefined, funciones, etc.
+para poder acceder a un elemento del array se utilizan indices que hacen referencia al orden en el que se encuentran. En el ejemplo anterior:
+array[0] = elemento1
+array[1] = elemento2
+array[2] = elemento3

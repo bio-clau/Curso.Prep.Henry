@@ -1,0 +1,18 @@
+FOR
+El bucle for se utiliza para realizar tareas repetitivas, como recorrer un arreglo de datos y para realizar alguna operacion con cada elemento de dicho arreglo.
+tiene la siguiente estructura:
+for (let i = 0; i < 10; i++) {
+    //codigo
+}
+este bucle tiene 3 argumentos:
+let i=0 -> crea una variable con un scope local y le asigna un valor inicial.
+i<10 -> es una condicion de escape, cuando esta condicion es true el bucle termina. Hay que tener cuidado que la condicion se cumpla en algun momento, sino estaremos denbtro de un bucle infinito.
+i++ -> este argumento indica como va a cambiar la variable i. En este caso se incrementa en 1 cada vez que el bucle se repite.
+
+OPERADORES LOGICOS(&& || !)
+los operadores logicos sirven para poder realizar condicionales.
+AND (&&) -> el operador lógico AND ( expresion1 && expresion2) da como resultado true SI Y SOLO SI ambas expresiones son true, caso contrario el resultado es false.
+
+OR (||) -> el operador lógico OR ( expresion1 || expresion2 ) da como resultado true y ambas expresiones son true O alguna de las dos expresiones es true. Este operador dara como reslutado false SI Y SOLO SI ambas expresiones son false.
+
+NOT (!) -> el operador lógico NOT ( !expresion ) devuelve el resultado opuesto de la expresion. si la expresion es true, el operador NOT devolvera false. Si la expresión el false, el operador NOT devolverá true.
