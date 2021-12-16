@@ -1,0 +1,17 @@
+Objetos
+Un objeto es un tipo de dato que me permite gusrdar pares key:value (o clave:valor). los value pueden ser de cualquier tipo, incluso otros objeton o hasta funciones. La sintaxis es:
+objeto = {
+    key1: value1,
+    key2: value2
+}
+
+Propiedades
+
+
+Métodos
+
+
+Bucle `for…in`
+
+
+Notación de puntos vs notación de corchetes
