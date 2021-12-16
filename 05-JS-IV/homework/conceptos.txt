@@ -6,12 +6,25 @@ objeto = {
 }
 
 Propiedades
-
+Un objeto esta compuesto por propiedades, y cada propiedad es una asociacion entre una clave (key) y un valor (value)
 
 Métodos
+Cuando el valor de una propiedad de un objeto es una funcion, esta toma el nombre de metodo.
 
 
 Bucle `for…in`
-
+El fucle for...in se utiliza para iterar sobre las propiedades de un objeto. Sería como el equivalente al forEach, pero para objetos.
+Este bucle tiene la siguiente sintaxis:
+for(variable in objeto) {
+    código
+}
 
 Notación de puntos vs notación de corchetes
+para poder acceder al valor de una propiedad de un objeto se tienen dos notaciones:
+Notacion de punto: en esta notacion de debe conocer el nombre de la propiedad a la que se quiere accceder. Asi:
+nombreObjeto.nombrePropiedad
+notacion de corchetes: con esta notacion no es necesario conocer el nombre de la propiedad. Si se conoce dicho nombre, se accede de la siguiente manera:
+nombreObjeto["nombrePropiedad"]
+Si el nombre de la propiedad esta dentro de una variable, se puede acceder de la siguiente forma:
+variable="nombrePropiedad"
+nombreObjeto[variable]

@@ -13,3 +13,4 @@ Persona.prototype.getNombre = function() {
 
 
 constructor
+Un cosntructor es un método que se utiliza dentro de una clase y sirve para crear e inicilizar objetos utilizando esa misma clase. Solo puede haber un constructor por clase.
